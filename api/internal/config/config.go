@@ -5,7 +5,7 @@ import (
 )
 
 type Config struct {
-	Port int `envconfig:"PORT" default:"80"`
+	Port int `envconfig:"PORT" default:"3000"`
 }
 
 func Load() (*Config, error) {
