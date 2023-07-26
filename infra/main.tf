@@ -4,7 +4,7 @@ provider "google" {
 }
 
 # modules can be used to split up different resources, 
-# in this case artifact registry(where we push our docker image to) and cloud run (deploys the image)
+# in this case artifact registry (where we push our docker image to) and cloud run (deploys the image)
 module "artifact_registry" {
   source = "./modules/artifact_registry"
 
