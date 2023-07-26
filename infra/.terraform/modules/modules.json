@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"artifact_registry","Source":"./modules/artifact_registry","Dir":"modules/artifact_registry"},{"Key":"cloud_run","Source":"./modules/cloud_run","Dir":"modules/cloud_run"}]}
